@@ -58,6 +58,85 @@ useReducer solves this problem by centralizing state updates into a single reduc
 
 ---
 
+## 🔥 How useReducer Works
+
+React provides the following syntax:
+
+const [state, dispatch] = useReducer(reducer, initialState);
+
+### Initial State
+
+const initialState = {
+    count:0
+};
+
+### Reducer Function
+
+function reducer(state,action){
+
+switch(action.type){
+
+case 'increment':
+return{
+count:state.count+1
+};
+
+case 'decrement':
+return{
+count:state.count-1
+};
+
+case 'reset':
+return{
+count:0
+};
+
+default:
+return state;
+
+}
+
+}
+
+### Using useReducer
+
+const [state,dispatch] = useReducer(
+reducer,
+initialState
+);
+
+### Dispatching Actions
+
+Increment
+
+dispatch({
+type:'increment'
+})
+
+Decrement
+
+dispatch({
+type:'decrement'
+})
+
+Reset
+
+dispatch({
+type:'reset'
+})
+
+## 🎓 Ideal For
+
+This project is suitable for:
+
+- React Beginners
+- Frontend Developers
+- Interview Preparation
+- JavaScript Developers
+- React Enthusiasts
+
+----
+
 ## 🙋‍♀️ Author - Manaswini Sasmal
 
 📲 - 6370094643

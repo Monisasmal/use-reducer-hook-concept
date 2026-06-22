@@ -35,7 +35,9 @@ While useState works great for simple states, managing multiple related states c
 Example:
 
 const [count, setCount] = useState(0);
+
 const [loading, setLoading] = useState(false);
+
 const [error, setError] = useState(null);
 
 As applications grow, state logic becomes scattered.
@@ -43,6 +45,18 @@ As applications grow, state logic becomes scattered.
 useReducer solves this problem by centralizing state updates into a single reducer function.
 
 ----
+
+## React Concepts Covered
+- useReducer Hook
+- Initial State
+- Reducer Function
+- Action Types
+- Dispatch Method
+- Immutable Updates
+- State Transitions
+- Component Re-rendering
+
+---
 
 ## 🙋‍♀️ Author - Manaswini Sasmal
 

@@ -1,5 +1,18 @@
+# ⚛️ React useReducer Hook
 
-🙋‍♀️ Author - Manaswini Sasmal
+A beginner-friendly and developer-focused project demonstrating how the useReducer Hook works in React applications.
+
+This project helps developers understand state management patterns, reducer functions, action dispatching, and handling complex state logic efficiently.
+
+
+## 🌐 Live Demo
+
+👉 [deployed URL here](https://use-reducer-hook-concept.vercel.app/)
+
+----
+
+
+## 🙋‍♀️ Author - Manaswini Sasmal
 
 📲 - 6370094643
 
